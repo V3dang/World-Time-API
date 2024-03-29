@@ -6,7 +6,7 @@ import 'package:flutter_basics/screens/choose_location.dart';
 
 void main() {
   runApp(MaterialApp(
-      initialRoute : '/home',
+      initialRoute : '/',
     routes: {
         '/': (context) => loading(),
         '/home': (context) => Home(),
